@@ -1,0 +1,5 @@
+{
+  "__resolveType": "site/loaders/getBlogPosts.ts",
+  "postSlugs": [],
+  "sortBy": "date_desc"
+}

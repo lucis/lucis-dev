@@ -10,7 +10,7 @@
     "descriptionTemplate": "%s",
     "type": "website",
     "title": "Lucis",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/8b67110d-de01-4e0a-9fe3-f178b9af56d5"
+    "favicon": "/lucisdev.ico"
   },
   "global": [
     {
@@ -31,9 +31,14 @@
     "replaces": [],
     "includeScriptsToHead": {
       "includes": []
+    },
+    "includeScriptsToBody": {
+      "includes": []
     }
   },
   "flavor": {
     "framework": "fresh"
-  }
+  },
+  "whilelistURLs": [],
+  "whitelistPatterns": []
 }

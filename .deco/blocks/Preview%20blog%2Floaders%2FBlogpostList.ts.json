@@ -1,4 +1,6 @@
 {
   "__resolveType": "blog/loaders/BlogpostList.ts",
-  "count": 3
+  "count": 3,
+  "postSlugs": [],
+  "sortBy": "date_desc"
 }

@@ -75,3 +75,5 @@ deno.lock
 _fresh/
 
 sqlite.db
+# Environment variables
+.env

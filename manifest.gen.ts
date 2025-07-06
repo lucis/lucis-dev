@@ -6,6 +6,9 @@ import * as $$$$$$$$$$$0 from "./apps/deco/records.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/resend.ts";
 import * as $$$$$$$$$$$2 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$3 from "./apps/site.ts";
+import * as $$$0 from "./loaders/getBlogPosts.ts";
+import * as $$$1 from "./loaders/getPost.ts";
+import * as $$$2 from "./loaders/home.ts";
 import * as $$$$$$0 from "./sections/BlogPost.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
 import * as $$$$$$2 from "./sections/Component.tsx";
@@ -23,6 +26,11 @@ import * as $$$$$$13 from "./sections/SubscribeNewsletter.tsx";
 import * as $$$$$$14 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/getBlogPosts.ts": $$$0,
+    "site/loaders/getPost.ts": $$$1,
+    "site/loaders/home.ts": $$$2,
+  },
   "sections": {
     "site/sections/BlogPost.tsx": $$$$$$0,
     "site/sections/BlogPosts.tsx": $$$$$$1,
